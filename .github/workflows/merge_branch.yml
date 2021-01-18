@@ -1,7 +1,7 @@
 name: sync master + merge main
 on:
   schedule:
-    - cron: '1 0-15/3 * * *'
+    - cron: '12 0-15/3 * * *'
   workflow_dispatch:
 jobs:
   merge-branch:
